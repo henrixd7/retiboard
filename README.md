@@ -6,6 +6,8 @@ RetiBoard is a censorship-resistant anonymous imageboard built on the Reticulum 
 
 ![RetiBoard Home View](docs/screenshot-home.png)
 
+![RetiBoard Terminal](docs/screenshot-terminal.png)
+
 ## Core Pillars
 
 1.  **Sovereign & Ephemeral** — All data lives on end-user machines. Threads are short-lived (12h default TTL) and aggressively pruned.
