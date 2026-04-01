@@ -29,7 +29,7 @@ RetiBoard is a censorship-resistant anonymous imageboard built on the Reticulum 
 
 ## Developer Setup
 
-RetiBoard is currently in active development. Binary releases are not yet provided, and building from source is the recommended path for enthusiasts.
+RetiBoard is currently in active development. Binary releases are not yet provided, and building from source is the recommended path for enthusiasts. See `docs/compile-nutka-binary.md`.
 
 ### 1. Backend Installation
 ```bash
