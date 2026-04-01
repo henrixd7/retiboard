@@ -5,7 +5,6 @@ Sovereign, Ephemeral, Decentralized Imageboard over [Reticulum](https://reticulu
 RetiBoard is a censorship-resistant anonymous imageboard built on the Reticulum Network Stack (RNS). It recreates the classic imageboard experience—catalog views, thread bumping, and media sharing—without any centralized storage or infrastructure.
 
 ![RetiBoard Home View](docs/screenshot-home.png)
-
 ![RetiBoard Terminal](docs/screenshot-terminal.png)
 
 ## Core Pillars
@@ -27,7 +26,6 @@ RetiBoard is a censorship-resistant anonymous imageboard built on the Reticulum 
 
 - **Python:** 3.10+
 - **Node.js:** 18+ (for frontend build)
-- **Reticulum:** A working `rns` installation.
 
 ## Developer Setup
 
