@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retiboard"
+version = "0.1.0"
+description = "Sovereign, censorship-resistant imageboard over Reticulum"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0"}
+
+dependencies = [
+    "rns>=0.9.3",
+    "lxmf>=0.6.2",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "aiosqlite>=0.20.0",
+    "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24.0",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+retiboard = "retiboard.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["retiboard*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
