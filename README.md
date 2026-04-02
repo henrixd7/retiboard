@@ -22,6 +22,20 @@ RetiBoard is a censorship-resistant anonymous imageboard built on the Reticulum 
 - **Anti-Spam:** Per-board Proof-of-Work (PoW) difficulty.
 - **Network Resilience:** Optimized for both high-bandwidth and LoRa/low-speed links.
 
+## Privacy
+
+RetiBoard is designed for strong practical privacy when used correctly.
+
+- **Encrypted Content:** Post content is encrypted before storage or transfer.
+- **Local Decryption:** Content is decrypted locally in the browser, not on the backend.
+- **Infrastructure Neutrality:** Routing nodes forward traffic but do not need your decryption keys.
+- **User-Controlled Identity:** Reticulum identities are local, portable, and disposable.
+
+The main privacy rule is simple: your first-hop connection matters. If you connect to a TCP node directly, that node can see your IP address. For better privacy, use Tor, a VPN, or another privacy-preserving first hop, and treat identities as compartmentalized personas when needed.
+
+For practical privacy guidance, see:
+`docs/privacy.md`
+
 ## Prerequisites
 
 - **Python:** 3.10+
